@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bcvoai6gkte6g"]
+
+[ext_resource type="PackedScene" uid="uid://cy65frt1mgbg1" path="res://Assets/Characters/Jogador/cena/character_body_2d.tscn" id="1_bx6na"]
+[ext_resource type="PackedScene" uid="uid://c74ctn6kkxryj" path="res://Assets/Environment/mapa/ato1.tscn" id="2_ncfkv"]
+
+[node name="mapa" type="TileMapLayer"]
+
+[node name="Node2D" parent="." instance=ExtResource("2_ncfkv")]
+position = Vector2(1, 0)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_bx6na")]
+position = Vector2(81, 65)

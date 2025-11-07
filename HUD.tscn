@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfqwyq4bdrepg"]
+
+[ext_resource type="Texture2D" uid="uid://dnuc4fqupwhdp" path="res://HUD/mini_mapa.png" id="1_k5de2"]
+[ext_resource type="Texture2D" uid="uid://dqghmlernd8gj" path="res://HUD/barra_de_itens (1).png" id="2_efote"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="Label" type="Label" parent="."]
+texture_filter = 1
+layout_direction = 4
+offset_left = 1.0
+offset_top = 16.0
+offset_right = 55.0
+offset_bottom = 73.0
+text = " ☻💬 : 0/8
+"
+vertical_alignment = 2
+
+[node name="MiniMapa" type="Sprite2D" parent="."]
+position = Vector2(333, 29)
+texture = ExtResource("1_k5de2")
+
+[node name="BarraDeItens(1)" type="Sprite2D" parent="."]
+position = Vector2(72, 13)
+scale = Vector2(0.8163957, 0.3641538)
+texture = ExtResource("2_efote")
+vframes = 6

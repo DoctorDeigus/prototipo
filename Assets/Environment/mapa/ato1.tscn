@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c74ctn6kkxryj"]
+
+[ext_resource type="PackedScene" uid="uid://map" path="res://Assets/Environment/mapa/Map.tscn" id="1_uo21u"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="map" parent="." instance=ExtResource("1_uo21u")]
+visible = true

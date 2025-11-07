@@ -1,0 +1,38 @@
+[gd_scene load_steps=12 format=3 uid="uid://map"]
+
+[ext_resource type="PackedScene" path="res://Assets/Environment/mapa/parques1_0.tscn" id="0_id"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/mapa/parque2_1.tscn" id="1_id"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/mapa/escada_2.tscn" id="2_id"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/mapa/porto_3.tscn" id="3_id"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/mapa/arvores2_4.tscn" id="4_id"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/mapa/arvores1_5.tscn" id="5_id"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/mapa/rua_6.tscn" id="6_id"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/mapa/terra2_7.tscn" id="7_id"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/mapa/terrra1_8.tscn" id="8_id"]
+[ext_resource type="PackedScene" path="res://Assets/Environment/mapa/rio2_9.tscn" id="9_id"]
+[ext_resource type="PackedScene" uid="uid://c47oai78awpac" path="res://Assets/Environment/mapa/rio1_10.tscn" id="10_id"]
+
+[node name="map" type="Node2D"]
+visible = false
+
+[node name="rio1_10" parent="." instance=ExtResource("10_id")]
+
+[node name="rio2_9" parent="." instance=ExtResource("9_id")]
+
+[node name="terrra1_8" parent="." instance=ExtResource("8_id")]
+
+[node name="terra2_7" parent="." instance=ExtResource("7_id")]
+
+[node name="rua_6" parent="." instance=ExtResource("6_id")]
+
+[node name="arvores1_5" parent="." instance=ExtResource("5_id")]
+
+[node name="arvores2_4" parent="." instance=ExtResource("4_id")]
+
+[node name="porto_3" parent="." instance=ExtResource("3_id")]
+
+[node name="escada_2" parent="." instance=ExtResource("2_id")]
+
+[node name="parque2_1" parent="." instance=ExtResource("1_id")]
+
+[node name="parques1_0" parent="." instance=ExtResource("0_id")]
