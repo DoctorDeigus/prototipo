@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cfqwyq4bdrepg"]
 
-[ext_resource type="Texture2D" uid="uid://dnuc4fqupwhdp" path="res://HUD/mini_mapa.png" id="1_k5de2"]
-[ext_resource type="Texture2D" uid="uid://dqghmlernd8gj" path="res://HUD/barra_de_itens (1).png" id="2_efote"]
+[ext_resource type="Texture2D" uid="uid://dnuc4fqupwhdp" path="res://Assets/UI/mini_mapa.png" id="1_qc5w2"]
+[ext_resource type="Texture2D" uid="uid://dqghmlernd8gj" path="res://Assets/UI/barra_de_itens (1).png" id="2_xaom8"]
 
 [node name="CanvasLayer" type="CanvasLayer"]
 
@@ -19,10 +19,10 @@ vertical_alignment = 2
 
 [node name="MiniMapa" type="Sprite2D" parent="."]
 position = Vector2(333, 29)
-texture = ExtResource("1_k5de2")
+texture = ExtResource("1_qc5w2")
 
 [node name="BarraDeItens(1)" type="Sprite2D" parent="."]
 position = Vector2(72, 13)
 scale = Vector2(0.8163957, 0.3641538)
-texture = ExtResource("2_efote")
+texture = ExtResource("2_xaom8")
 vframes = 6

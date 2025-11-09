@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dnuc4fqupwhdp"
-path="res://.godot/imported/mini_mapa.png-470e3d0759a811cc42b9b8da7350df69.ctex"
+uid="uid://dqghmlernd8gj"
+path="res://.godot/imported/barra_de_itens (1).png-2988b0cf52f89d067b3e1ae40db16a8c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://HUD/mini_mapa.png"
-dest_files=["res://.godot/imported/mini_mapa.png-470e3d0759a811cc42b9b8da7350df69.ctex"]
+source_file="res://Assets/UI/barra_de_itens (1).png"
+dest_files=["res://.godot/imported/barra_de_itens (1).png-2988b0cf52f89d067b3e1ae40db16a8c.ctex"]
 
 [params]
 

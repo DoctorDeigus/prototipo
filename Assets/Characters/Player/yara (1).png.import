@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://du2t5d7u1874g"
-path="res://.godot/imported/tileset.png-e0571ba5e520e19e9eee0dddec82e1d8.ctex"
+uid="uid://frjg5ddd1vpm"
+path="res://.godot/imported/yara (1).png-3c031322409b16bef7e62ce7afc1477e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Environment/mapa/tileset.png"
-dest_files=["res://.godot/imported/tileset.png-e0571ba5e520e19e9eee0dddec82e1d8.ctex"]
+source_file="res://Assets/Characters/Player/yara (1).png"
+dest_files=["res://.godot/imported/yara (1).png-3c031322409b16bef7e62ce7afc1477e.ctex"]
 
 [params]
 

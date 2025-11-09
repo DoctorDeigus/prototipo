@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://cy65frt1mgbg1"]
 
-[ext_resource type="Script" uid="uid://1eakkvdf61ex" path="res://Assets/Characters/Jogador/script/character_body_2d.gd" id="1_7ancm"]
-[ext_resource type="Texture2D" uid="uid://frjg5ddd1vpm" path="res://Assets/Characters/Jogador/yara (1).png" id="2_xrtpp"]
-[ext_resource type="PackedScene" uid="uid://cfqwyq4bdrepg" path="res://HUD.tscn" id="3_xrtpp"]
+[ext_resource type="Script" uid="uid://1eakkvdf61ex" path="res://Script/Characters/character_body_2d.gd" id="1_7ancm"]
+[ext_resource type="Texture2D" uid="uid://frjg5ddd1vpm" path="res://Assets/Characters/Player/yara (1).png" id="2_xrtpp"]
+[ext_resource type="PackedScene" uid="uid://cfqwyq4bdrepg" path="res://Scenes/UI/HUD.tscn" id="3_xrtpp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_utnx2"]
 size = Vector2(14, 1)
